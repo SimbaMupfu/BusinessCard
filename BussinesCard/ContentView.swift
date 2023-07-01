@@ -13,6 +13,9 @@ struct ContentView: View {
             Color(red: 0.09, green: 0.63, blue: 0.52)
                 .edgesIgnoringSafeArea(.all)
             Text("Simbarashe Mupfururirwa")
+                .font(.title)
+                .bold()
+                .foregroundColor(.white)
         }
     }
 }
